@@ -1,0 +1,248 @@
+2019-05-16 10:06:55 TRACE Driver:21 - select * from book
+2019-05-16 10:10:19 TRACE Driver:23 - select * from book
+2019-05-16 10:10:19 TRACE Driver:27 - 1 A Game of Thrones
+2019-05-16 10:10:19 TRACE Driver:27 - 2 The Eye of the World
+2019-05-16 10:10:19 TRACE Driver:27 - 3 Harry Potter and the Sorcerer's Stone
+2019-05-16 10:10:19 TRACE Driver:27 - 4 Harry Potter and the Chamber of Secrets
+2019-05-16 10:10:19 TRACE Driver:27 - 5 Storm Front
+2019-05-16 10:10:42 TRACE Driver:23 - select * from book
+2019-05-16 10:10:42 TRACE Driver:28 - 1 A Game of Thrones
+2019-05-16 10:10:42 TRACE Driver:28 - 2 The Eye of the World
+2019-05-16 10:10:42 TRACE Driver:28 - 3 Harry Potter and the Sorcerer's Stone
+2019-05-16 10:10:42 TRACE Driver:28 - 4 Harry Potter and the Chamber of Secrets
+2019-05-16 10:10:42 TRACE Driver:28 - 5 Storm Front
+2019-05-16 10:11:26 TRACE Driver:24 - select id, title from book
+2019-05-16 10:11:26 TRACE Driver:29 - 1 A Game of Thrones
+2019-05-16 10:11:26 TRACE Driver:29 - 2 The Eye of the World
+2019-05-16 10:11:26 TRACE Driver:29 - 3 Harry Potter and the Sorcerer's Stone
+2019-05-16 10:11:26 TRACE Driver:29 - 4 Harry Potter and the Chamber of Secrets
+2019-05-16 10:11:26 TRACE Driver:29 - 5 Storm Front
+2019-05-16 11:03:40 ERROR Driver:8 - class java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+2019-05-16 11:03:40 WARN  Driver:10 - 509: oracle.jdbc.driver.T4CTTIoer11
+2019-05-16 11:03:40 WARN  Driver:10 - 461: oracle.jdbc.driver.T4CTTIoer11
+2019-05-16 11:03:40 WARN  Driver:10 - 1104: oracle.jdbc.driver.T4C8Oall
+2019-05-16 11:03:40 WARN  Driver:10 - 550: oracle.jdbc.driver.T4CTTIfun
+2019-05-16 11:03:40 WARN  Driver:10 - 268: oracle.jdbc.driver.T4CTTIfun
+2019-05-16 11:03:40 WARN  Driver:10 - 655: oracle.jdbc.driver.T4C8Oall
+2019-05-16 11:03:40 WARN  Driver:10 - 229: oracle.jdbc.driver.T4CStatement
+2019-05-16 11:03:40 WARN  Driver:10 - 41: oracle.jdbc.driver.T4CStatement
+2019-05-16 11:03:40 WARN  Driver:10 - 765: oracle.jdbc.driver.T4CStatement
+2019-05-16 11:03:40 WARN  Driver:10 - 983: oracle.jdbc.driver.OracleStatement
+2019-05-16 11:03:40 WARN  Driver:10 - 1168: oracle.jdbc.driver.OracleStatement
+2019-05-16 11:03:40 WARN  Driver:10 - 1362: oracle.jdbc.driver.OracleStatement
+2019-05-16 11:03:40 WARN  Driver:10 - 369: oracle.jdbc.driver.OracleStatementWrapper
+2019-05-16 11:03:40 WARN  Driver:10 - 29: com.revature.driver.Driver
+2019-05-16 11:03:40 WARN  Driver:10 - 20: com.revature.driver.Driver
+2019-05-16 11:13:25 TRACE Driver:41 - select * from login where username ='rorr' and pswd='pass'
+2019-05-16 11:13:26 TRACE Driver:35 - 
+2019-05-16 11:13:33 TRACE Driver:41 - select * from login where username ='rorr' and pswd='pass1'
+2019-05-16 11:13:33 TRACE Driver:35 - User [id=2, username=rorr, password=pass1, first=Richard, last=Orr]
+2019-05-16 11:13:52 TRACE Driver:41 - select * from login where username ='paulm' and pswd='pass'
+2019-05-16 11:13:53 TRACE Driver:35 - User [id=1, username=paulm, password=pass, first=Paul, last=Maksimovich]
+2019-05-16 11:14:00 TRACE Driver:41 - select * from login where username ='pski' and pswd='pass'
+2019-05-16 11:14:00 TRACE Driver:35 - 
+2019-05-16 11:14:12 TRACE Driver:41 - select * from login where username ='pski'--' and pswd=''
+2019-05-16 11:14:12 TRACE Driver:35 - User [id=3, username=pski'--, password=, first=Matt, last=Pierzynski]
+2019-05-16 11:14:51 TRACE Driver:41 - select * from login where username ='pski' and pswd=''
+2019-05-16 11:14:52 TRACE Driver:35 - 
+2019-05-16 11:15:01 TRACE Driver:41 - select * from login where username ='pski'--' and pswd=''
+2019-05-16 11:15:02 TRACE Driver:35 - User [id=3, username=pski'--, password=pwd, first=Matt, last=Pierzynski]
+2019-05-16 11:19:11 TRACE Driver:43 - select * from login where username =? and pswd=?
+2019-05-16 11:19:11 TRACE Driver:37 - User [id=2, username=rorr, password=pass1, first=Richard, last=Orr]
+2019-05-16 11:19:25 TRACE Driver:43 - select * from login where username =? and pswd=?
+2019-05-16 11:19:26 TRACE Driver:37 - 
+2019-05-16 14:37:06 TRACE GenreOracle:29 - Attempting to find genres by id: 4
+2019-05-16 14:37:07 TRACE GenreOracle:37 - Found genre.
+2019-05-16 14:37:07 TRACE GenreOracle:45 - Returning genre Genre [id=4, genre=Sci-Fi]
+2019-05-16 14:37:07 TRACE GenreOracle:51 - Attempting to find genre: Fantasy
+2019-05-16 14:37:07 TRACE GenreOracle:59 - Genre found.
+2019-05-16 14:37:07 TRACE GenreOracle:67 - Returning genre: Genre [id=1, genre=Fantasy]
+2019-05-16 14:41:31 TRACE GenreOracle:29 - Attempting to find genres by id: 4
+2019-05-16 14:41:31 TRACE GenreOracle:37 - Found genre.
+2019-05-16 14:41:31 TRACE GenreOracle:45 - Returning genre Genre [id=4, genre=Sci-Fi]
+2019-05-16 14:41:31 TRACE GenreOracle:119 - Updating Genre: Genre [id=4, genre=sci-fi]
+2019-05-16 14:41:32 TRACE GenreOracle:133 - Update complete
+2019-05-16 14:41:32 TRACE GenreOracle:29 - Attempting to find genres by id: 4
+2019-05-16 14:41:32 TRACE GenreOracle:37 - Found genre.
+2019-05-16 14:41:32 TRACE GenreOracle:45 - Returning genre Genre [id=4, genre=sci-fi]
+2019-05-16 14:43:11 TRACE GenreOracle:29 - Attempting to find genres by id: 4
+2019-05-16 14:43:11 TRACE GenreOracle:37 - Found genre.
+2019-05-16 14:43:11 TRACE GenreOracle:45 - Returning genre Genre [id=4, genre=sci-fi]
+2019-05-16 14:43:11 TRACE GenreOracle:119 - Updating Genre: Genre [id=4, genre=Sci-Fi]
+2019-05-16 14:43:11 TRACE GenreOracle:133 - Update complete
+2019-05-16 14:43:12 TRACE GenreOracle:29 - Attempting to find genres by id: 4
+2019-05-16 14:43:12 TRACE GenreOracle:37 - Found genre.
+2019-05-16 14:43:12 TRACE GenreOracle:45 - Returning genre Genre [id=4, genre=Sci-Fi]
+2019-05-16 14:45:29 TRACE GenreOracle:29 - Attempting to find genres by id: 7
+2019-05-16 14:45:29 TRACE GenreOracle:37 - Found genre.
+2019-05-16 14:45:29 TRACE GenreOracle:45 - Returning genre Genre [id=7, genre=Filler]
+2019-05-16 14:45:29 TRACE GenreOracle:148 - Deleting Genre: Genre [id=7, genre=Filler]
+2019-05-16 14:45:29 TRACE GenreOracle:161 - Delete complete
+2019-05-16 14:52:51 TRACE GenreOracle:24 - Inserting a genre: Genre [id=null, genre=Fantastical Adventure]
+2019-05-16 14:52:51 TRACE GenreOracle:40 - Insert successful
+2019-05-16 14:52:51 TRACE GenreOracle:81 - Attempting to find genre: Fantastical Adventure
+2019-05-16 14:52:51 TRACE GenreOracle:89 - Genre found.
+2019-05-16 14:52:51 TRACE GenreOracle:97 - Returning genre: Genre [id=8, genre=Fantastical Adventure]
+2019-05-16 15:04:04 TRACE BookOracle:175 - retrieving all books from database.
+2019-05-16 15:04:05 TRACE AuthorOracle:143 - Getting all authors by book
+2019-05-16 15:04:05 TRACE GenreOracle:125 - Attempting to find genres by book: Book [id=5, title=Storm Front, isbn10=0451457811, isbn13=978-0451457813, authors=[Author [id=5, first=Jim, last=Butcher, about=null]], price=8.99, stock=50, cover=null, genres=[]]
+2019-05-16 15:04:05 TRACE GenreOracle:134 - Found genre: 1 Fantasy
+2019-05-16 15:04:05 TRACE GenreOracle:134 - Found genre: 6 Mystery
+2019-05-16 15:04:05 TRACE AuthorOracle:143 - Getting all authors by book
+2019-05-16 15:04:05 TRACE GenreOracle:125 - Attempting to find genres by book: Book [id=1, title=A Game of Thrones, isbn10=0553593714, isbn13=978-0553593716, authors=[Author [id=3, first=George, last=Martin, about=Sadist]], price=8.79, stock=60, cover=null, genres=[]]
+2019-05-16 15:04:05 TRACE GenreOracle:134 - Found genre: 1 Fantasy
+2019-05-16 15:04:05 TRACE AuthorOracle:143 - Getting all authors by book
+2019-05-16 15:04:05 TRACE GenreOracle:125 - Attempting to find genres by book: Book [id=4, title=Harry Potter and the Chamber of Secrets, isbn10=0439064872, isbn13=978-0439064873, authors=[Author [id=1, first=J.K., last=Rowling, about=One of the richest people in the world.]], price=8.33, stock=30, cover=null, genres=[]]
+2019-05-16 15:04:05 TRACE GenreOracle:134 - Found genre: 1 Fantasy
+2019-05-16 15:04:05 TRACE AuthorOracle:143 - Getting all authors by book
+2019-05-16 15:04:05 TRACE GenreOracle:125 - Attempting to find genres by book: Book [id=2, title=The Eye of the World, isbn10=0812511816, isbn13=978-0812511819, authors=[Author [id=2, first=Robert, last=Jordan, about=Lived in Charleston, SC]], price=8.68, stock=498, cover=null, genres=[]]
+2019-05-16 15:04:05 TRACE GenreOracle:134 - Found genre: 1 Fantasy
+2019-05-16 15:04:05 TRACE AuthorOracle:143 - Getting all authors by book
+2019-05-16 15:04:05 TRACE GenreOracle:125 - Attempting to find genres by book: Book [id=3, title=Harry Potter and the Sorcerer's Stone, isbn10=0590353403, isbn13=978-0590353403, authors=[Author [id=1, first=J.K., last=Rowling, about=One of the richest people in the world.]], price=19.82, stock=50, cover=null, genres=[]]
+2019-05-16 15:04:05 TRACE GenreOracle:134 - Found genre: 1 Fantasy
+2019-05-21 21:14:19 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+2019-05-21 21:14:19 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-21 21:14:19 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-21 21:14:19 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-21 21:14:19 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-21 21:14:19 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-21 21:14:19 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-21 21:14:19 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-21 21:14:19 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-21 21:14:19 WARN  ConnectionUtil:15 - 20: dealership.Queries
+2019-05-21 21:15:51 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+2019-05-21 21:15:51 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-21 21:15:51 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-21 21:15:51 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-21 21:15:51 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-21 21:15:51 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-21 21:15:51 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-21 21:15:51 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-21 21:15:51 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-21 21:15:51 WARN  ConnectionUtil:15 - 20: dealership.Queries
+2019-05-21 21:19:03 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+2019-05-21 21:19:03 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-21 21:19:03 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-21 21:19:03 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-21 21:19:03 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-21 21:19:03 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-21 21:19:03 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-21 21:19:03 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-21 21:19:03 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-21 21:19:03 WARN  ConnectionUtil:15 - 20: dealership.Queries
+2019-05-21 21:20:45 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+2019-05-21 21:20:45 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-21 21:20:45 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-21 21:20:45 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-21 21:20:45 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-21 21:20:45 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-21 21:20:45 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-21 21:20:45 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-21 21:20:45 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-21 21:20:45 WARN  ConnectionUtil:15 - 20: dealership.Queries
+2019-05-21 21:21:56 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+2019-05-21 21:21:56 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-21 21:21:56 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-21 21:21:56 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-21 21:21:56 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-21 21:21:56 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-21 21:21:56 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-21 21:21:56 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-21 21:21:56 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-21 21:21:56 WARN  ConnectionUtil:15 - 20: dealership.Queries
+2019-05-22 04:11:56 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: Got minus one from a read call
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 13: dealership.Car
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 139: dealership.Queries
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 183: dealership.Queries
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 110: dealership.Queries
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 40: dealership.Queries
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 390: dealership.Queries
+2019-05-22 04:11:56 WARN  ConnectionUtil:15 - 380: dealership.Queries
+2019-05-22 04:21:57 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: Got minus one from a read call
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 12: dealership.User
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 42: dealership.Queries
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 391: dealership.Queries
+2019-05-22 04:21:57 WARN  ConnectionUtil:15 - 381: dealership.Queries
+2019-05-22 04:22:40 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: Got minus one from a read call
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 12: dealership.User
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 42: dealership.Queries
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 391: dealership.Queries
+2019-05-22 04:22:40 WARN  ConnectionUtil:15 - 381: dealership.Queries
+2019-05-22 04:30:38 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: Got minus one from a read call
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 12: dealership.User
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 55: dealership.Queries
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 393: dealership.Queries
+2019-05-22 04:30:38 WARN  ConnectionUtil:15 - 383: dealership.Queries
+2019-05-22 04:36:21 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: Got minus one from a read call
+2019-05-22 04:36:21 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-22 04:36:21 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-22 04:36:21 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-22 04:36:21 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-22 04:36:21 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-22 04:36:21 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-22 04:36:21 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-22 04:36:21 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-22 04:36:21 WARN  ConnectionUtil:15 - 20: dealership.Queries
+2019-05-23 18:40:26 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-23 18:40:26 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 25: dealership.Queries
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-23 18:40:26 WARN  ConnectionUtil:15 - 25: dealership.Queries
+2019-05-26 08:42:58 ERROR ConnectionUtil:13 - class java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+2019-05-26 08:42:58 WARN  ConnectionUtil:15 - 854: oracle.jdbc.driver.T4CConnection
+2019-05-26 08:42:58 WARN  ConnectionUtil:15 - 793: oracle.jdbc.driver.PhysicalConnection
+2019-05-26 08:42:58 WARN  ConnectionUtil:15 - 57: oracle.jdbc.driver.T4CDriverExtension
+2019-05-26 08:42:58 WARN  ConnectionUtil:15 - 747: oracle.jdbc.driver.OracleDriver
+2019-05-26 08:42:58 WARN  ConnectionUtil:15 - 562: oracle.jdbc.driver.OracleDriver
+2019-05-26 08:42:58 WARN  ConnectionUtil:15 - 664: java.sql.DriverManager
+2019-05-26 08:42:58 WARN  ConnectionUtil:15 - 247: java.sql.DriverManager
+2019-05-26 08:42:58 WARN  ConnectionUtil:15 - 36: com.revature.utils.ConnectionUtil
+2019-05-26 08:42:58 WARN  ConnectionUtil:15 - 25: dealership.Queries
